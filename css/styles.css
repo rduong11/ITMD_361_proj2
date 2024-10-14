@@ -59,7 +59,7 @@ body {
   text-align: center;
 }
 
-image-a {
+.image-a {
   float: right;
   border: 1px black;
   width: 300px;
