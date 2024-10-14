@@ -1,66 +1,67 @@
 body {
-    background-color: #f9e8c2
-    margin: 0
-    padding: 0
+  background-color: #f9e8c2
+  margin: 0
+  padding: 0
 }
 
 #header {
-    text-align: center;
-    padding: 20px;
-    border-radius: 12px 12px 0px 0px;
-    margin-bottom: 20px;
+  position: relative;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px; 
 }
 
 #header h1 {
-    position: absolute;
-    left: 420px;
-    font-family: 'Helvetica'
-    color: #3b2f2c;
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Helvetica'
+  color: #3b2f2c;
 }
 
 #header #toplink {
-    text-decoration: none;
-    position: absolute;
-    top:-34px;
-    right: 10px;
-    color: white;
-    font-size: 1.8em;
+  text-decoration: none;
+  position: absolute;
+  top:-34px;
+  right: 10px;
+  color: white;
+  font-size: 1.8em;
   }
 
 #main-nav {
-    float: left;
-    width: 100%;
-    background-color: #333;
+  float: left;
+  width: 100%;
+  background-color: #333;
 }
   
 #main-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-    position: relative;
-    left:50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
 }
   
 #main-nav ul li {
-    float: left;
-    position: relative;
-    right: 50%;
+  float: left;
+  position: relative;
+  right: 50%;
 }
   
 #main-nav ul li a {
-    padding: 10px 25px;
-    display: block;
-    text-decoration: none;
-    color: #ccc;
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
 }
   
 #main-nav ul li a:hover {
-    background-color: #ccc;
-    color: #333;
+  background-color: #ccc;
+  color: #333;
 }
 
 #center {
-    width: 960px;
-    text-align: center;
+  width: 960px;
+  text-align: center;
 }
