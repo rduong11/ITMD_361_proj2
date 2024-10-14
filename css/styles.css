@@ -1,11 +1,15 @@
 body {
     background-color: #f9e8c2
+    margin: 0
+    padding: 0
 }
 
 #header {
-    position: relative;
-    margin-top: 40px;
-    border-radius: 12px 12px 0px 0px;     
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 20px;
 }
 
 #header h1 {
