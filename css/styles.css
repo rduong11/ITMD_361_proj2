@@ -1,6 +1,6 @@
 body {
   background-color: #f9e8c2;
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 650px;
   line-height: 1.6;
   padding: 0 10px;
@@ -57,4 +57,13 @@ body {
 #center {
   width: 960px;
   text-align: center;
+}
+
+image-a {
+  float: right;
+  border: 1px black;
+  width: 300px;
+  padding: 5px;
+  background-color: white;
+  margin: 10px 0 10px 20px;
 }
