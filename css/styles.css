@@ -1,7 +1,9 @@
 body {
-  background-color: #f9e8c2
-  margin: 0
-  padding: 0
+  background-color: #f9e8c2;
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  padding: 0 10px;
 }
 
 #header {
