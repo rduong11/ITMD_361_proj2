@@ -62,7 +62,7 @@ body {
 .image-a {
   float: right;
   border: 3px black;
-  width: 650px;
+  width: 450px;
   padding: 5px;
   margin: 10px 0 10px 20px;
 }
@@ -137,8 +137,10 @@ body {
 .overlay-text {
   color: white;
   font-size: 16px;
-  padding: 16px;
   text-align: center;
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
 }
 
 .aligned-list {
