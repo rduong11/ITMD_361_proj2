@@ -72,7 +72,7 @@ body {
     font-size: 1em;
     color: #3b2f2c;
     border-bottom: 2px solid #999; 
-    padding-bottom: 5px; 
+    padding-bottom: 30px; 
     margin-bottom: 10px; 
 }
 
@@ -81,7 +81,11 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0; 
+    bottom: -5; 
     height: 2px;
     background-color: #3b2f2c; 
+}
+
+#resume-wrapper p, #resume-wrapper ul {
+  margin-bottom: 40px; /* Space between sections */
 }
