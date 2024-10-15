@@ -159,3 +159,10 @@ body {
   width: 560px;
   height: 315px;
 }
+
+#name-heading {
+  font-weight: bold;     
+  font-size: 36px;       
+  margin: 20px 0;        
+  text-align: center;    
+}
