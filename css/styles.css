@@ -62,7 +62,7 @@ body {
 .image-a {
   float: right;
   border: 3px black;
-  width: 400px;
+  width: 650px;
   padding: 5px;
   margin: 10px 0 10px 20px;
 }
@@ -74,4 +74,44 @@ body {
   border-bottom: 2px solid #999; 
   padding-bottom: 30px; 
   margin-bottom: 10px; 
+}
+
+.image-b {
+  float: right;
+  width: 650px;
+  padding: 5px;
+  margin: 10px 0 10px 20px;
+  border-radius: 10px;
+}
+
+.image-m {
+  float: left 
+  width: 650px;
+  padding: 5px;
+  margin: 10px 0 10px 20px;
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+}
+
+.image-box {
+  float: right;
+  width: 650px;
+  padding: 5px;
+  margin: 10px 0 10px 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-box:hover .overlay {
+  opacity: 1;
 }
