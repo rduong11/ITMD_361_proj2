@@ -141,3 +141,7 @@ body {
 .aligned-list {
   padding-left: 250px; 
 }
+
+#hover-hint {
+  font-size: 12px;
+}
