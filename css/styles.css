@@ -78,15 +78,15 @@ body {
 
 .image-b {
   float: right;
-  width: 650px;
+  width: 250px;
   padding: 5px;
   margin: 10px 0 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .image-m {
-  float: left 
-  width: 650px;
+  float: left; 
+  width: 250px;
   padding: 5px;
   margin: 10px 0 10px 20px;
   clip-path: circle(50%);
@@ -94,9 +94,14 @@ body {
   height: 200px;
 }
 
+.image-box-container {
+  position: relative;
+  display: inline-block;
+}
+
 .image-box {
   float: right;
-  width: 650px;
+  width: 250px;
   padding: 5px;
   margin: 10px 0 10px 20px;
 }
@@ -112,6 +117,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.image-box:hover .overlay {
+.image-box-container:hover .overlay {
   opacity: 1;
 }
